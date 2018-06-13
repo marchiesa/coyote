@@ -1,3 +1,3 @@
 # coyote
 
-We plan to upload the source files by Jun 30.
+We plan to upload the source files by Jun 30, 2018.
