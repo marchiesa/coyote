@@ -1,0 +1,18 @@
+@nodes
+label	num	name	
+0	0	Canberra	
+1	1	Hobart	
+2	2	Melbourne	
+3	3	Sydney	
+@arcs
+		label	name	cost	
+0	1	0	Canberra_Hobart	20	
+1	0	1	Hobart_Canberra	20	
+0	2	2	Canberra_Melbourne	20	
+2	0	3	Melbourne_Canberra	20	
+0	3	4	Canberra_Sydney	25	
+3	0	5   Sydney_Canberra	25	
+1	2	6	Hobart_Melbourne	70	
+2	1	7	Melbourne_Hobart	70	
+2	3	8	Melbourne_Sydney	20	
+3	2	9	Sydney_Melbourne	20	

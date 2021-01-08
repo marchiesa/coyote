@@ -1,0 +1,6 @@
+model triangle-equal.lgf-formulation2.mod
+option solver mosek;
+option mosek_options 'MSK_DPAR_INTPNT_NL_TOL_MU_RED = 0.1  MSK_DPAR_INTPNT_NL_TOL_PFEAS = 0.1 MSK_DPAR_INTPNT_NL_TOL_REL_GAP = 0.1';
+solve;
+display alpha;display  f_0_1_0, f_0_1_1, f_0_2_0, f_0_2_2, f_1_0_0, f_1_0_1, f_1_2_0, f_1_2_1, f_1_2_2, f_2_0_0, f_2_0_1, f_2_0_2, f_2_1_0, f_2_1_1, f_2_1_2;
+display  phi_0_1_1, phi_0_2_3, phi_0_2_5, phi_1_0_0, phi_1_2_3, phi_1_2_5, phi_2_0_2, phi_2_1_1, phi_2_1_4;
